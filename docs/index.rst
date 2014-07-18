@@ -20,7 +20,7 @@ indefinite caching when a timeout of ``caching.base.FOREVER`` is
 passed.  If you were already using one of these backends, you can probably go
 on using them just as you were.
 
-With Django 1.3 or higher, you should use the ``CACHES`` setting::
+With Django 1.4 or higher, you should use the ``CACHES`` setting::
 
     CACHES = {
         'default': {
@@ -60,7 +60,7 @@ options simply define a separate ``cache_machine`` entry for the
 .. note::
 
     Cache Machine also supports the other memcache backend support by
-    Django >= 1.3 based on pylibmbc_:
+    Django >= 1.4 based on pylibmbc_:
     ``caching.backends.memcached.PyLibMCCache``.
 
 .. _pylibmc: http://sendapatch.se/projects/pylibmc/
